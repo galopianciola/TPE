@@ -1,4 +1,4 @@
-package tpe.clases;
+package tpe.p1.clases;
 
 import java.util.ArrayList;
 import java.util.Iterator;

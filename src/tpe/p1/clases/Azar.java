@@ -1,11 +1,11 @@
-package tpe.clases;
+package tpe.p1.clases;
 
 public class Azar extends ColaMultiple {
 
-	public Cola getColaAzar(){
+	private Cola getColaAzar(){
 		//obtiene una cola al azar de las presentes en la lista del padre
-		int numeroAzar = (int) (Math.random() * super.elementos.size());
-		return super.elementos.get(numeroAzar);
+		int numeroAzar = (int) (Math.random() * elementos.size());
+		return elementos.get(numeroAzar);
 	}
 	
 	@Override

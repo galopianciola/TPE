@@ -1,4 +1,4 @@
-package tpe.clases;
+package tpe.p1.clases;
 
 
 public abstract class Cola {
